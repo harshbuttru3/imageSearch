@@ -73,3 +73,12 @@ form button{
     object-fit: cover;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+    #search-result {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+
+    #search-result img {
+        width: 100%; /* Make images span the full width of the column */
+    }
+}
