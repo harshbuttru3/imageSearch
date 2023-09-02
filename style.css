@@ -84,12 +84,15 @@ form button{
 form {
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center-align items vertically */
+background: none;
         
     }
 
     form input {
         margin-bottom: 10px; /* Add some spacing between input and button */
 border-radius: 8px; 
+background: #434989;
+height: 80px;
     }
     form button{
         border-radius:8px;
