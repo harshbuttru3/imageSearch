@@ -93,9 +93,10 @@ background: none;
 border-radius: 8px; 
 background: #434989;
 height: 200px;
+padding: 13px 30px;
     }
     form button{
         border-radius:8px;
-            padding: 13px 30px;
+            
 }
 }
